@@ -1,17 +1,3 @@
-// procedure gnomeSort(a[])
-//     pos := 1
-//     while pos < length(a)
-//         if (a[pos] >= a[pos-1])
-//             pos := pos + 1
-//         else
-//             swap a[pos] and a[pos-1]
-//             if (pos > 1)
-//                 pos := pos - 1
-//             end if
-//         end if
-//     end while
-// end procedure
-
 /*jshint expr:true, boss: true */
 var _   = require('underscore'),
     lib = require('./lib'),
